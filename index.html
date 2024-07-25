@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro dos produtos</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="register">
+          <h2>Cadastro dos produtos</h2>
+          <form class="form">
+            <input type="text" id="textNameProduct" class="form_item" placeholder="Nome do produto">
+            <input type="text" id="textValueProduct" class="form_item" placeholder="Valor">
+            <span class="message"></span>
+            <button class="btn_save">Salvar</button>
+          </form>
+        </div>
+        <div class="table">
+          <table id="tb_product">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Código</th>
+                <th>Nome do produto</th>
+                <th>Valor</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
